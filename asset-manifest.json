@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.5462ac46.css",
-    "main.js": "/static/js/main.8c07fa88.js",
-    "static/media/my_picturi.jpeg": "/static/media/my_picturi.af4627a2f90ad849d36c.jpeg",
-    "static/media/project_logo.png": "/static/media/project_logo.34731987d769eee24a4a.png",
-    "static/media/personal_logo_black3.png": "/static/media/personal_logo_black3.18f076e4a14dc7dd1b0f.png",
-    "static/media/atencao.png": "/static/media/atencao.b106142608b72ea847cb.png",
-    "static/media/curriculum_logo2.png": "/static/media/curriculum_logo2.ac5b9f513399542a7f4f.png",
-    "static/media/curriculum_logo.png": "/static/media/curriculum_logo.17f8585c6771f23a08d6.png",
-    "static/media/lattes_logo.png": "/static/media/lattes_logo.ff1ff88b6338585cc835.png",
-    "static/media/project_logo_black.png": "/static/media/project_logo_black.e38a1ff4767854d69ba4.png",
-    "static/media/personal_logo_white.png": "/static/media/personal_logo_white.b160237e22fbbc0d9bd5.png",
-    "static/media/personal_logo_white2.png": "/static/media/personal_logo_white2.8eafc3fd44e98571bf5e.png",
-    "static/media/linkedin_logo.png": "/static/media/linkedin_logo.275720b37ea098d2d93e.png",
-    "index.html": "/index.html",
-    "main.5462ac46.css.map": "/static/css/main.5462ac46.css.map",
-    "main.8c07fa88.js.map": "/static/js/main.8c07fa88.js.map"
+    "main.css": "/my-site/static/css/main.5462ac46.css",
+    "main.js": "/my-site/static/js/main.b5ac9a6c.js",
+    "static/media/my_picturi.jpeg": "/my-site/static/media/my_picturi.af4627a2f90ad849d36c.jpeg",
+    "static/media/project_logo.png": "/my-site/static/media/project_logo.34731987d769eee24a4a.png",
+    "static/media/personal_logo_black3.png": "/my-site/static/media/personal_logo_black3.18f076e4a14dc7dd1b0f.png",
+    "static/media/atencao.png": "/my-site/static/media/atencao.b106142608b72ea847cb.png",
+    "static/media/curriculum_logo2.png": "/my-site/static/media/curriculum_logo2.ac5b9f513399542a7f4f.png",
+    "static/media/curriculum_logo.png": "/my-site/static/media/curriculum_logo.17f8585c6771f23a08d6.png",
+    "static/media/lattes_logo.png": "/my-site/static/media/lattes_logo.ff1ff88b6338585cc835.png",
+    "static/media/project_logo_black.png": "/my-site/static/media/project_logo_black.e38a1ff4767854d69ba4.png",
+    "static/media/personal_logo_white.png": "/my-site/static/media/personal_logo_white.b160237e22fbbc0d9bd5.png",
+    "static/media/personal_logo_white2.png": "/my-site/static/media/personal_logo_white2.8eafc3fd44e98571bf5e.png",
+    "static/media/linkedin_logo.png": "/my-site/static/media/linkedin_logo.275720b37ea098d2d93e.png",
+    "index.html": "/my-site/index.html",
+    "main.5462ac46.css.map": "/my-site/static/css/main.5462ac46.css.map",
+    "main.b5ac9a6c.js.map": "/my-site/static/js/main.b5ac9a6c.js.map"
   },
   "entrypoints": [
     "static/css/main.5462ac46.css",
-    "static/js/main.8c07fa88.js"
+    "static/js/main.b5ac9a6c.js"
   ]
 }
