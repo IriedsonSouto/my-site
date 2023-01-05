@@ -1,0 +1,29 @@
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+    text-transform: none;
+    letter-spacing: 1px;
+}
+.page-section{
+    background-color: #fffafa;
+    margin: 20px;
+    padding-left: 15px;
+    text-decoration: none;
+    border: 0;
+    border-radius: 20px;
+}
+.page-section:hover{
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    -webkit-transform: rotateZ(-360deg) scale(1.01);
+    transform: rotateZ(-360deg) scale(1.01);
+}
+.imagem-section{
+    max-height: 250px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-right: 50px;
+}
+.a_ref{
+    text-decoration: none;
+}
+
+

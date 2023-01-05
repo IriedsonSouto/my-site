@@ -1,0 +1,18 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #ffd54f;
+}
+
+.description {
+    text-align: center;
+}
+
+.logo {
+    width: 300px;
+    height: 300px;
+}
+
+.sections{
+    padding-top: 40px;
+}
