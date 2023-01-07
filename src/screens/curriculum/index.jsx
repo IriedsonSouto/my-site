@@ -1,22 +1,20 @@
 import React from 'react';
 import './style.css';
+import WarningSpan from '../../componentes/warningspan';
 import github from './icons/github_logo.png';
 import lattes from './icons/lattes_logo.png';
 import linkedin from './icons/linkedin_logo.png';
 import picturi from './icons/my_picturi.jpeg';
-import atencao from './icons/atencao.png';
+
 
 function CurriculumPag(){
 
     return (
         <>
             <title>Meu Currículo</title>
-            <a className="li" href="https://drive.google.com/file/d/1qlkUEtIXYYTRzvEGpB8rtxO_qQZgDt-T/view" target="_blank" rel="external noreferrer">
-                <div className="section-curriculum_atencao">
-                    <img className="img_atencao" src={atencao} alt={"Atenção"}/>
-                    <h4>Atenção o currículo nessa seção é um modelo resumido, para ter acesso ao currículo formal click aqui.</h4>
-                </div>
-            </a>
+            <WarningSpan lrefs="https://drive.google.com/file/d/1qlkUEtIXYYTRzvEGpB8rtxO_qQZgDt-T/view"
+            text="Atenção o currículo nessa seção é um modelo resumido, para ter acesso ao currículo formal click aqui.">
+            </WarningSpan>
             <div className="section-curriculum">
                 <div className="perfil">
                     <div>

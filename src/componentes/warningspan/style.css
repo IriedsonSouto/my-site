@@ -1,0 +1,67 @@
+.section-curriculum_atencao{
+    margin: 20px;
+    background-color: #fffafa;
+    padding: 20px;
+    text-decoration: none;
+    border: 0;
+    border-radius: 20px;
+}
+.section-curriculum_atencao:hover{
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    -webkit-transform: rotateZ(-360deg) scale(1.01);
+    transform: rotateZ(-360deg) scale(1.01);
+}
+.table_atencao{
+    display: table;
+}
+.cel_atencao{
+    display: table-cell;
+    vertical-align: middle;
+}
+.img_atencao{
+    max-width: 40px;
+    max-height: 40px;
+}
+.li{
+    text-decoration: none;
+}
+@media screen and (min-width: 700px) {
+    .section-curriculum_atencao{
+        display: flex;
+    }
+    .img_atencao{
+        margin-right: 20px;
+    }
+}
+@media screen and (max-width: 699px) {
+    .section-curriculum_atencao{
+        margin: 20px;
+        text-decoration: none;
+        border: 0;
+        border-radius: 20px;
+        text-align: center;
+    }
+    .img_atencao{
+        max-width: 80px;
+        max-height: 80px;
+        padding-bottom: 20px;
+    }
+    .table_atencao{
+        display: grid;
+    }
+}
+@media screen and (max-width: 350px) {
+    .section-curriculum_atencao{
+        margin: 10px;
+        padding: 15px;
+    }
+}
+@media screen and (max-width: 268px) {
+    h2, .h2{
+        font-size: 20px;
+    }
+    h4, .h4{
+        font-size: 16px;
+    }
+}

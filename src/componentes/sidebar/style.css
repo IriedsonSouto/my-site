@@ -24,11 +24,16 @@ main{
     width: 100%;
     height: 100%;
 }
-.sidebar{
+#sidebar{
     background: #000;
     color: #fff;
-    width: 300px;
     transition: all 0.5s;
+}
+.sidebar_open{
+    width: 300px;
+}
+.sidebar_close{
+    width: 50px;
 }
 .top_section{
     display: flex;
@@ -67,5 +72,30 @@ main{
     .iconhome{
         max-height: 80px;
         padding-top: 20px;
+    }
+}
+@media screen and (max-width: 235px) {
+    .container-side{
+        max-width: 100%;
+        margin-left: 0px;
+        padding: 0;
+        height: 40px;
+        display: grid;
+    }
+    .sidebar_close{
+        width: 100%;
+        display: flex;
+        height: 40px;
+        justify-content: center;
+    }
+    .sidebar_open{
+        width: 100%;
+    }
+    .top-faicon{
+        min-height: 25px;
+        min-width: 13px;
+    }
+    .link{
+        padding: 2px 10px;
     }
 }

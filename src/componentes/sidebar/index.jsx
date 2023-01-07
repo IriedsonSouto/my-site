@@ -37,7 +37,6 @@ const Sidebar = ({children}) => {
         }
     ]
 
-
     return(
         <>
              <header>
@@ -49,7 +48,7 @@ const Sidebar = ({children}) => {
                 </a>
             </header>
             <div className="container-side">
-                <div style={{width: isOpen ? "300px" : "50px"}} className="sidebar">
+                <div id="sidebar" className={isOpen ? "sidebar_open" : "sidebar_close"}>
                     {
                         menuItem.map((item, index)=>(
                             <NavLink to={item.path} key={index} className="link" activeclassName="active">

@@ -13,20 +13,6 @@
     border: 0;
     border-radius: 20px;
 }
-.section-curriculum_atencao{
-    margin: 20px;
-    background-color: #fffafa;
-    padding: 20px;
-    text-decoration: none;
-    border: 0;
-    border-radius: 20px;
-}
-.section-curriculum_atencao:hover{
-    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
-    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
-    -webkit-transform: rotateZ(-360deg) scale(1.01);
-    transform: rotateZ(-360deg) scale(1.01);
-}
 section{
     margin-bottom: 20px;
 }
@@ -38,10 +24,6 @@ p{
     max-height: 40px;
     margin-right: 20px;
     margin-bottom: 30px;
-}
-.img_atencao{
-    max-width: 40px;
-    max-height: 40px;
 }
 .my_picturi{
     max-width: 180px;
@@ -82,9 +64,6 @@ p{
 .img{
     padding: 3px;
 }
-.li{
-    text-decoration: none;
-}
 @media screen and (min-width: 928px) {
     .perfil_colum{
         width: 620px;
@@ -97,14 +76,8 @@ p{
     .perfil{
         display: flex;
     }
-    .section-curriculum_atencao{
-        display: flex;
-    }
     .perfil_colum{
         padding-left: 40px;
-    }
-    .img_atencao{
-        margin-right: 20px;
     }
 }
 @media screen and (max-width: 699px) {
@@ -118,18 +91,6 @@ p{
         padding-bottom: 20px;
         -webkit-filter: drop-shadow(4px 3px 2px rgba(0,0,0,.5));
         filter: drop-shadow(4px 3px 2px rgba(0,0,0,.5));
-    }
-    .section-curriculum_atencao{
-        margin: 20px;
-        text-decoration: none;
-        border: 0;
-        border-radius: 20px;
-        text-align: center;
-    }
-    .img_atencao{
-        max-width: 80px;
-        max-height: 80px;
-        padding-bottom: 20px;
     }
     .section_technology_block{
         text-align: center;
@@ -155,10 +116,6 @@ p{
         font-size: 8px;
     }
     .section-curriculum{
-        margin: 10px;
-        padding: 15px;
-    }
-    .section-curriculum_atencao{
         margin: 10px;
         padding: 15px;
     }

@@ -37,16 +37,26 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
         display: flex;
     }
 }
-
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 750px) {
     .imagem-section{
-        max-height: 150px;
+        padding-right: 0px;
+    }
+    .img_container{
+        text-align: center;
+    }
+}
+@media screen and (max-width: 543px) {
+    .imagem-section{
+        max-height: 180px;
     }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 430px) {
     .imagem-section{
         max-height: 80px;
+    }
+    .img_container{
+        text-align: left;
     }
 }
 

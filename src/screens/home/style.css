@@ -13,3 +13,8 @@ body {
 .sections{
     padding-top: 40px;
 }
+@media screen and (max-width: 235px) {
+    .sections{
+        padding-top: 0px;
+    }
+}

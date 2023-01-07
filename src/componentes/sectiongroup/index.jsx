@@ -7,7 +7,7 @@ function SectionGroup(props){
     return (
         <NavLink className="a_ref" to={props.linkref}>
             <div className="page-section">
-                <div>
+                <div className="img_container">
                     <img className="imagem-section" src={props.icon} alt={props.altname} />
                 </div>
                 <div className="text-section">

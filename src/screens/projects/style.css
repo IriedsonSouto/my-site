@@ -1,0 +1,17 @@
+@media screen and (max-width: 840px) {
+    h3, .h3{
+        font-size: 20px;
+    }
+    h4, .h4{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 266px) {
+    h3, .h3{
+        font-size: 18px;
+    }
+    h4, .h4{
+        font-size: 13px;
+    }
+}
+
