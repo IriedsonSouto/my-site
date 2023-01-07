@@ -16,6 +16,13 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
     -webkit-transform: rotateZ(-360deg) scale(1.01);
     transform: rotateZ(-360deg) scale(1.01);
 }
+.text-section{
+    display: table;
+}
+.son-text-section{
+    display: table-cell;
+    vertical-align: middle;
+}
 .imagem-section{
     max-height: 250px;
     padding-top: 10px;
@@ -25,5 +32,21 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
 .a_ref{
     text-decoration: none;
 }
+@media screen and (min-width: 750px) {
+    .page-section{
+        display: flex;
+    }
+}
 
+@media screen and (max-width: 500px) {
+    .imagem-section{
+        max-height: 150px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .imagem-section{
+        max-height: 80px;
+    }
+}
 

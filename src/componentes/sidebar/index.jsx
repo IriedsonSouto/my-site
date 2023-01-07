@@ -44,7 +44,7 @@ const Sidebar = ({children}) => {
                 <div className="top_section">
                     <FaBars className="top-faicon" onClick={toggle}/>
                 </div>
-                <a href="/" className="navbar-brand">
+                <a href="/my-site" className="navbar-brand">
                     <img className="iconhome" title = "Home Pag" src={icon} alt={"home"}/>
                 </a>
             </header>

@@ -14,48 +14,40 @@ function CurriculumPag(){
             <a className="li" href="https://drive.google.com/file/d/1qlkUEtIXYYTRzvEGpB8rtxO_qQZgDt-T/view" target="_blank" rel="external noreferrer">
                 <div className="section-curriculum_atencao">
                     <img className="img_atencao" src={atencao} alt={"Atenção"}/>
-                    <h4>Atenção o currículo nessa seção é um modelo resumido, para ver o currículo formal click aqui.</h4>
+                    <h4>Atenção o currículo nessa seção é um modelo resumido, para ter acesso ao currículo formal click aqui.</h4>
                 </div>
             </a>
             <div className="section-curriculum">
                 <div className="perfil">
-                    <table>
-                        <tr>
-                            <td>
-                                <div>
-                                    <img className="my_picturi" src={picturi} alt={"I"}/>
-                                </div>
-                            </td>
-                            <td className="perfil_colum">
-                                <div>
-                                    <h1>Iriedson Souto Maior de Moraes Vilar</h1>
-                                    <nav>
-                                        <a className="li" href="https://github.com/IriedsonSouto"
-                                        target="_blank" rel="external noreferrer"><img className="icon_social" src={github} alt={"GitHub"}/></a>
+                    <div>
+                        <img className="my_picturi" src={picturi} alt={"I"}/>
+                    </div>
+                    <div className="perfil_colum">
+                        <h1>Iriedson Souto Maior de Moraes Vilar</h1>
+                        <nav>
+                            <a className="li" href="https://github.com/IriedsonSouto"
+                            target="_blank" rel="external noreferrer"><img className="icon_social" src={github} alt={"GitHub"}/></a>
 
-                                        <a className="li" href="https://www.linkedin.com/in/iriedson-souto-maior-de-moraes-vilar-457781209/"
-                                        target="_blank" rel="external noreferrer"><img className="icon_social" src={linkedin} alt={"LinkedIn"}/></a>
+                            <a className="li" href="https://www.linkedin.com/in/iriedson-souto-maior-de-moraes-vilar-457781209/"
+                            target="_blank" rel="external noreferrer"><img className="icon_social" src={linkedin} alt={"LinkedIn"}/></a>
 
-                                        <a className="li" href="https://lattes.cnpq.br/4114667072227676"
-                                        target="_blank" rel="external noreferrer"><img className="icon_social" src={lattes} alt={"Lattes"}/></a>
-                                    </nav>
-                                </div>
-                                <h4>Sou proativo, calmo, tenho uma
-                                boa capacidade de aprendizagem
-                                e gosto de ajudar as demais pessoas. </h4>
-                            </td>
-                        </tr>
-                    </table>
+                            <a className="li" href="https://lattes.cnpq.br/4114667072227676"
+                            target="_blank" rel="external noreferrer"><img className="icon_social" src={lattes} alt={"Lattes"}/></a>
+                        </nav>
+                        <h4>Sou proativo, calmo, tenho uma
+                        boa capacidade de aprendizagem
+                        e gosto de ajudar as demais pessoas. </h4>
+                    </div>
                 </div>
                 <hr></hr>
                 <main className="informacoes">
                     <section>
                         <h2>Dados Pessoais:</h2>
                         <p>Brasileiro, solteiro, 28 anos<br></br>
-                        Sítio Corredor. S/N<br></br>
+                        Sítio Corredor - S/N<br></br>
                         Camalaú - PB<br></br>
-                        Telefone: (81)9.7908-3171<br></br>
-                        E-mail: iriedson.souto@academico.ifpb.edu.br</p>
+                        Telefone: (81)9.7908-3171<br></br></p>
+                        <p className="text_sensitive">E-mail: iriedson.souto@academico.ifpb.edu.br</p>
                     </section>
                     <hr></hr>
                     <section>
@@ -77,25 +69,62 @@ function CurriculumPag(){
                         <div className="section_competencias">
                             <h4>Experiencias</h4>
                             <p>Conhecimento de metodologias ágeis, experiencia de trabalho em equipe, organização de ambiente, monitor na faculdade, tutor em projeto de extensão e volutuário em projeto de pesquisa com BI.</p>
-                            <div className="section_tecnologias">
-                                <div className="section_tecnologia_img">
-                                    <h4>Linguagens</h4>
-                                    <img className="img" src={"https://skillicons.dev/icons?i=java,js,ts&theme=light"} alt={"Linguagens"}/>
-                                    <img className="img" src={"https://skillicons.dev/icons?i=python,html,css&theme=light"} alt={"Linguagens"}/>
+                            <div className="section_technology_block">
+                                <div className="section_technology_pair">
+                                    <div id="section_lang"  className="section_technology_single">
+                                        <h4 className="technology_font">Linguagens</h4>
+                                        <div className="img_block_one">
+                                            <div className="img_block_two">
+                                                <img className="img" src={"https://skillicons.dev/icons?i=java&theme=light"} alt={"Java"}/>
+                                                <img className="img" src={"https://skillicons.dev/icons?i=js&theme=light"} alt={"JavaScript"}/>
+                                                <img className="img" src={"https://skillicons.dev/icons?i=ts&theme=light"} alt={"TypeScript"}/>
+                                            </div>
+                                            <div className="img_block_two">
+                                                <img className="img" src={"https://skillicons.dev/icons?i=python&theme=light"} alt={"Python"}/>
+                                                <img className="img" src={"https://skillicons.dev/icons?i=html&theme=light"} alt={"HTML"}/>
+                                                <img className="img" src={"https://skillicons.dev/icons?i=css&theme=light"} alt={"CSS"}/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="section_framworks" className="section_technology_single">
+                                        <h4 className="technology_font">Frameworks</h4>
+                                        <div className="img_block_one">
+                                            <div className="img_block_two">
+                                                <img className="img" src={"https://skillicons.dev/icons?i=spring&theme=light"} alt={"Spring"}/>
+                                                <img className="img" src={"https://skillicons.dev/icons?i=nodejs&theme=light"} alt={"NodeJs"}/>
+                                                <img className="img" src={"https://skillicons.dev/icons?i=express&theme=light"} alt={"Express"}/>
+                                            </div>
+                                            <div className="img_block_two">
+                                                <img className="img" src={"https://skillicons.dev/icons?i=react&theme=light"} alt={"React"}/>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div className="section_tecnologia_img">
-                                    <h4>Frameworks</h4>
-                                    <img className="img" src={"https://skillicons.dev/icons?i=spring,nodejs,express&theme=light"} alt={"Frameworks"}/>
-                                    <img className="img" src={"https://skillicons.dev/icons?i=react&theme=light"} alt={"Frameworks"}/>
-                                </div>
-                                <div className="section_tecnologia_img">
-                                    <h4>Banco de Dados</h4>
-                                    <img className="img" src={"https://skillicons.dev/icons?i=mysql,postgres,mongodb&theme=light"} alt={"Banco de Dados"}/>
-                                </div>
-                                <div className="section_tecnologia_img">
-                                    <h4>DevOps</h4>
-                                    <img className="img" src={"https://skillicons.dev/icons?i=git,github,gitlab&theme=light"} alt={"Versionamento"}/>
-                                    <img className="img" src={"https://skillicons.dev/icons?i=heroku,docker&theme=light"} alt={"DevOps"}/>
+                                <div className="section_technology_pair">
+                                    <div id="section_bd" className="section_technology_single">
+                                        <h4 className="technology_font">Banco de Dados</h4>
+                                        <div className="img_block_one">
+                                            <div className="img_block_two">
+                                            <img className="img" src={"https://skillicons.dev/icons?i=mysql&theme=light"} alt={"MySql"}/>
+                                            <img className="img" src={"https://skillicons.dev/icons?i=postgres&theme=light"} alt={"Postgres"}/>
+                                            <img className="img" src={"https://skillicons.dev/icons?i=mongodb&theme=light"} alt={"MongoDB"}/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="section_devops" className="section_technology_single">
+                                        <h4 className="technology_font">DevOps</h4>
+                                        <div className="img_block_one">
+                                            <div className="img_block_two">
+                                                <img className="img" src={"https://skillicons.dev/icons?i=git&theme=light"} alt={"Git"}/>
+                                                <img className="img" src={"https://skillicons.dev/icons?i=github&theme=light"} alt={"GitHub"}/>
+                                                <img className="img" src={"https://skillicons.dev/icons?i=gitlab&theme=light"} alt={"GitLab"}/>
+                                            </div>
+                                            <div className="img_block_two">
+                                                <img className="img" src={"https://skillicons.dev/icons?i=docker&theme=light"} alt={"Docker"}/>
+                                                <img className="img" src={"https://skillicons.dev/icons?i=heroku&theme=light"} alt={"Heroku"}/>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>

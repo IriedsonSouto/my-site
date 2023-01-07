@@ -1,0 +1,87 @@
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+    text-transform: none;
+    letter-spacing: 1px;
+}
+.text-section{
+    display: table;
+}
+.imagem{
+    text-align: center;
+}
+.font_hello{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.img_sign{
+    width: 0px;
+}
+audio{
+    width: 100px;
+    background: #000;
+    border-radius: 20px;
+}
+@media screen and (max-width: 1104px) {
+    .my_picture{
+        width: 250px;
+    }
+    .img_palete{
+        width: 540px;
+    }
+}
+@media screen and (max-width: 964px) {
+    .my_picture{
+        width: 200px;
+    }
+    .img_palete{
+        width: 450px;
+    }
+}
+@media screen and (max-width: 776px) {
+    .my_picture{
+        width: 150px;
+    }
+    .img_palete{
+        width: 350px;
+    }
+}
+@media screen and (max-width: 628px) {
+    .my_picture{
+        width: 120px;
+    }
+    .img_palete{
+        width: 270px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .imagem-section{
+        max-height: 150px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .imagem-section{
+        max-height: 80px;
+    }
+    .font_hello{
+        padding-bottom: 2px;
+    }
+}
+@media screen and (max-width: 396px) {
+    .img_palete{
+        width: 0px;
+    }
+    .img_sign{
+        padding-top: 15px;
+        width: 170px;
+    }
+}
+@media screen and (max-width: 293px) {
+    .font_hello{
+        font-size: 20px;
+    }
+    .img_sign{
+        width: 130px;
+    }
+}
+
+
+

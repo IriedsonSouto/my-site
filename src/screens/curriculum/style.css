@@ -20,7 +20,6 @@
     text-decoration: none;
     border: 0;
     border-radius: 20px;
-    display: flex;
 }
 .section-curriculum_atencao:hover{
     -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
@@ -43,7 +42,6 @@ p{
 .img_atencao{
     max-width: 40px;
     max-height: 40px;
-    margin-right: 20px;
 }
 .my_picturi{
     max-width: 180px;
@@ -53,31 +51,151 @@ p{
     -webkit-filter: drop-shadow(4px 3px 2px rgba(0,0,0,.5));
     filter: drop-shadow(4px 3px 2px rgba(0,0,0,.5));
 }
-.perfil_colum{
-    width: 620px;
-    padding-left: 40px;
-}
 .section_competencias{
     margin-left: 20px;
 }
-.section_tecnologias{
-    display: flex;
+.section_technology_block{
     margin-top: 20px;
+    justify-content: center;
+    display: flex;
 }
-.section_tecnologia_img{
+.section_technology_pair{
+    justify-content: center;
+    display: grid;
+}
+.section_technology_single{
     width: 180px;
     height: 160px;
     margin-right: 15px;
-    align-items: center;
+    margin-bottom: 10px;
     border: 2px solid #797373;
     border-radius: 20px;
     padding-top: 10px;
-    padding-left: 10px;
+    padding-left: 0px;
+    text-align: center;
+    justify-content: center;
+}
+.img_block_two{
+    display: flex;
+    justify-content: center;
 }
 .img{
-    padding-bottom: 10px;
+    padding: 3px;
 }
 .li{
     text-decoration: none;
 }
+@media screen and (min-width: 928px) {
+    .perfil_colum{
+        width: 620px;
+    }
+    .section_technology_pair{
+        display: flex;
+    }
+}
+@media screen and (min-width: 700px) {
+    .perfil{
+        display: flex;
+    }
+    .section-curriculum_atencao{
+        display: flex;
+    }
+    .perfil_colum{
+        padding-left: 40px;
+    }
+    .img_atencao{
+        margin-right: 20px;
+    }
+}
+@media screen and (max-width: 699px) {
+    .perfil{
+        text-align: center;
+    }
+    .my_picturi{
+        max-width: 140px;
+        max-height: 140px;
+        border-radius: 50%;
+        padding-bottom: 20px;
+        -webkit-filter: drop-shadow(4px 3px 2px rgba(0,0,0,.5));
+        filter: drop-shadow(4px 3px 2px rgba(0,0,0,.5));
+    }
+    .section-curriculum_atencao{
+        margin: 20px;
+        text-decoration: none;
+        border: 0;
+        border-radius: 20px;
+        text-align: center;
+    }
+    .img_atencao{
+        max-width: 80px;
+        max-height: 80px;
+        padding-bottom: 20px;
+    }
+    .section_technology_block{
+        text-align: center;
+        display: grid;
+    }
+}
+@media screen and (max-width: 440px) {
+    .text_sensitive{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 350px) {
+    .section_competencias{
+        margin-left: 0px;
+    }
+    .section_technology_single{
+        margin-right: 0px;
+    }
+    p{
+        font-size: small;
+    }
+    .text_sensitive{
+        font-size: 8px;
+    }
+    .section-curriculum{
+        margin: 10px;
+        padding: 15px;
+    }
+    .section-curriculum_atencao{
+        margin: 10px;
+        padding: 15px;
+    }
+}
+@media screen and (max-width: 275px) {
+    .img_block_two{
+        display: grid;
+        justify-content: center;
 
+    }
+    .section_technology_single{
+        width: 90px;
+    }
+    #section_lang{
+        height: 380px;
+    }
+    #section_framworks{
+        height: 270px;
+    }
+    #section_bd{
+        height: 230px;
+    }
+    #section_devops{
+        height: 320px;
+    }
+    .technology_font{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 268px) {
+    .text_sensitive{
+        font-size: 6px;
+    }
+    h2, .h2{
+        font-size: 20px;
+    }
+    h4, .h4{
+        font-size: 16px;
+    }
+}
