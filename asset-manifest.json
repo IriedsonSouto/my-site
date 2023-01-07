@@ -1,8 +1,12 @@
 {
   "files": {
-    "main.css": "/my-site/static/css/main.5462ac46.css",
-    "main.js": "/my-site/static/js/main.b5ac9a6c.js",
+    "main.css": "/my-site/static/css/main.9d964599.css",
+    "main.js": "/my-site/static/js/main.11f607ca.js",
+    "static/media/elevator_song.mp3": "/my-site/static/media/elevator_song.ba846d37d381f39fb509.mp3",
+    "static/media/ucanbaby.png": "/my-site/static/media/ucanbaby.449c78f936464f570557.png",
     "static/media/my_picturi.jpeg": "/my-site/static/media/my_picturi.af4627a2f90ad849d36c.jpeg",
+    "static/media/page_construction2.png": "/my-site/static/media/page_construction2.0df240d1513f3a1f5e32.png",
+    "static/media/page_construction.png": "/my-site/static/media/page_construction.d90447e8b3cbaa012f8a.png",
     "static/media/project_logo.png": "/my-site/static/media/project_logo.34731987d769eee24a4a.png",
     "static/media/personal_logo_black3.png": "/my-site/static/media/personal_logo_black3.18f076e4a14dc7dd1b0f.png",
     "static/media/atencao.png": "/my-site/static/media/atencao.b106142608b72ea847cb.png",
@@ -14,11 +18,11 @@
     "static/media/personal_logo_white2.png": "/my-site/static/media/personal_logo_white2.8eafc3fd44e98571bf5e.png",
     "static/media/linkedin_logo.png": "/my-site/static/media/linkedin_logo.275720b37ea098d2d93e.png",
     "index.html": "/my-site/index.html",
-    "main.5462ac46.css.map": "/my-site/static/css/main.5462ac46.css.map",
-    "main.b5ac9a6c.js.map": "/my-site/static/js/main.b5ac9a6c.js.map"
+    "main.9d964599.css.map": "/my-site/static/css/main.9d964599.css.map",
+    "main.11f607ca.js.map": "/my-site/static/js/main.11f607ca.js.map"
   },
   "entrypoints": [
-    "static/css/main.5462ac46.css",
-    "static/js/main.b5ac9a6c.js"
+    "static/css/main.9d964599.css",
+    "static/js/main.11f607ca.js"
   ]
 }
