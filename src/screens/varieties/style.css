@@ -18,7 +18,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
 audio{
     width: 100px;
     background: #000;
-    border-radius: 20px;
+    border-radius: 5px;
 }
 @media screen and (max-width: 1104px) {
     .my_picture{
