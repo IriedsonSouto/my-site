@@ -51,7 +51,7 @@ function ProjectsPag(){
                     </h4>
                     <ButtonRef linkref="https://github.com/IriedsonSouto/ProjetoSalao"></ButtonRef>
                 </SectionProject>
-                <SectionProject title="Sistema de Horários" linkref="https://www.youtube.com/watch?v=nEJjcApwXZw" altname="curriculum logo">
+                <SectionProject title="Sistema de Horários" linkref="https://www.youtube.com/embed/nEJjcApwXZw" altname="curriculum logo">
                     <h3>Essa aplicação é um projeto que está sendo desenvolvida e será utilizada pelo IFPB-Monteiro.</h3>
                     <hr/>
                     <h4>
