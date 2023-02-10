@@ -12,7 +12,7 @@ function CurriculumPag(){
     return (
         <>
             <title>Meu Currículo</title>
-            <WarningSpan lrefs="https://drive.google.com/file/d/1qlkUEtIXYYTRzvEGpB8rtxO_qQZgDt-T/view"
+            <WarningSpan lrefs="https://drive.google.com/file/d/1sy7gxa-DQ6Ug-NBz7K4oF6UUcy0wyC6A/view?usp=sharing"
             text="Atenção o currículo nessa seção é um modelo resumido, para ter acesso ao currículo formal click aqui.">
             </WarningSpan>
             <div className="section-curriculum">
