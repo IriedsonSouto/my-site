@@ -19,6 +19,12 @@ section{
 p{
     margin: 0px;
 }
+
+h5, .h5{
+    margin: 0px;
+    margin-top: 5px;
+}
+
 .icon_social{
     max-width: 40px;
     max-height: 40px;
