@@ -12,7 +12,7 @@ function CurriculumPag(){
     return (
         <>
             <title>Meu Currículo</title>
-            <WarningSpan lrefs="https://drive.google.com/file/d/1sy7gxa-DQ6Ug-NBz7K4oF6UUcy0wyC6A/view?usp=sharing"
+            <WarningSpan lrefs="https://drive.google.com/file/d/1p3DHQMPCGeoh7Tlt_7EyOqXq0HJgJCmX/view"
             text="Atenção o currículo nessa seção é um modelo resumido, para ter acesso ao currículo formal click aqui.">
             </WarningSpan>
             <div className="section-curriculum">
@@ -41,11 +41,10 @@ function CurriculumPag(){
                 <main className="informacoes">
                     <section>
                         <h2>Dados Pessoais:</h2>
-                        <p>Brasileiro, solteiro, 28 anos<br></br>
-                        Sítio Corredor - S/N<br></br>
-                        Camalaú - PB<br></br>
+                        <p>Brasileiro, solteiro, 29 anos<br></br>
+                        Campina Grande - PB<br></br>
                         Telefone: (81)9.7908-3171<br></br></p>
-                        <p className="text_sensitive">E-mail: iriedson.souto@academico.ifpb.edu.br</p>
+                        <p className="text_sensitive">E-mail: iriedsonsouto@outlook.com</p>
                     </section>
                     <hr></hr>
                     <section>
@@ -56,10 +55,14 @@ function CurriculumPag(){
                     <hr></hr>
                     <section>
                         <h2>Formação:</h2>
-                        <p>Análise e Desenvolvimento de Sistemas. Instituto Federal da Paraíba - IFPB
-                        , previsão de conclusão em 2023.<br></br>
-                        Licenciatura Plena em Matemática. Universidade Estadual da Paraíba - UEPB
-                        , conclusão em 2019.</p>
+                        <p>
+                            Mestrado em Ciências da Computação. Universidade Federal de Campina Grande - UFCG
+                            , previsão de conclusão em 2026.<br></br>
+                            Análise e Desenvolvimento de Sistemas. Instituto Federal da Paraíba - IFPB
+                            , previsão de conclusão em 2023.<br></br>
+                            Licenciatura Plena em Matemática. Universidade Estadual da Paraíba - UEPB
+                            , conclusão em 2019.
+                        </p>
                     </section>
                     <hr></hr>
                     <section>
@@ -94,6 +97,7 @@ function CurriculumPag(){
                                             </div>
                                             <div className="img_block_two">
                                                 <img className="img" src={"https://skillicons.dev/icons?i=react&theme=light"} alt={"React"}/>
+                                                <img className="img" src={"https://skillicons.dev/icons?i=angular&theme=light"} alt={"Angular"}/>
                                             </div>
                                         </div>
                                     </div>
@@ -119,7 +123,6 @@ function CurriculumPag(){
                                             </div>
                                             <div className="img_block_two">
                                                 <img className="img" src={"https://skillicons.dev/icons?i=docker&theme=light"} alt={"Docker"}/>
-                                                <img className="img" src={"https://skillicons.dev/icons?i=heroku&theme=light"} alt={"Heroku"}/>
                                             </div>
                                         </div>
                                     </div>

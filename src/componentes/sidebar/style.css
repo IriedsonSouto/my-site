@@ -55,14 +55,14 @@ header {
     text-decoration: none;
 }
 .link:hover{
-    background:#f0c63d;
+    background:#d7d3c4;
     -webkit-transform: scale(1.05);
     transform: scale(1.05);
     color: #000;
     transition: all 0.5s;
 }
 .active{
-    background: #ffd54f;
+    background: #fdf9ec;
     color: #000;
 }
 .link_text{
