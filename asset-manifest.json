@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-site/static/css/main.d7a4fd76.css",
-    "main.js": "/my-site/static/js/main.405fb823.js",
+    "main.css": "/my-site/static/css/main.74c8d97d.css",
+    "main.js": "/my-site/static/js/main.ba37574c.js",
     "static/media/elevator_song.mp3": "/my-site/static/media/elevator_song.ba846d37d381f39fb509.mp3",
     "static/media/ucanbaby.png": "/my-site/static/media/ucanbaby.449c78f936464f570557.png",
     "static/media/my_picturi.jpeg": "/my-site/static/media/my_picturi.af4627a2f90ad849d36c.jpeg",
@@ -18,11 +18,11 @@
     "static/media/personal_logo_white2.png": "/my-site/static/media/personal_logo_white2.8eafc3fd44e98571bf5e.png",
     "static/media/linkedin_logo.png": "/my-site/static/media/linkedin_logo.275720b37ea098d2d93e.png",
     "index.html": "/my-site/index.html",
-    "main.d7a4fd76.css.map": "/my-site/static/css/main.d7a4fd76.css.map",
-    "main.405fb823.js.map": "/my-site/static/js/main.405fb823.js.map"
+    "main.74c8d97d.css.map": "/my-site/static/css/main.74c8d97d.css.map",
+    "main.ba37574c.js.map": "/my-site/static/js/main.ba37574c.js.map"
   },
   "entrypoints": [
-    "static/css/main.d7a4fd76.css",
-    "static/js/main.405fb823.js"
+    "static/css/main.74c8d97d.css",
+    "static/js/main.ba37574c.js"
   ]
 }
