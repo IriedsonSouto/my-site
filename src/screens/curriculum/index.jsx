@@ -49,19 +49,27 @@ function CurriculumPag(){
                     <hr></hr>
                     <section>
                         <h2>Principais Interesses:</h2>
-                        <p>Desenvolvimento Full-Stack, Arquitetura de Software, Gerenciamento de Projeto, Qualidade de software,<br></br>
-                        Automação de processos, Ciência de dados e Segurança da informação</p>
+                        <p>
+                            Desenvolvimento Full-Stack;<br></br>
+                            Arquitetura de Software;<br></br>
+                            Gerenciamento de Projeto;<br></br>
+                            Inteligência Artificial;<br></br>
+                            Qualidade de software;<br></br>
+                            Automação de processos;<br></br>
+                            Ciência de dados;<br></br>
+                            Segurança da informação.
+                        </p>
                     </section>
                     <hr></hr>
                     <section>
                         <h2>Formação:</h2>
                         <p>
-                            Mestrado em Ciências da Computação. Universidade Federal de Campina Grande - UFCG
-                            , previsão de conclusão em 2026.<br></br>
-                            Análise e Desenvolvimento de Sistemas. Instituto Federal da Paraíba - IFPB
-                            , previsão de conclusão em 2023.<br></br>
-                            Licenciatura Plena em Matemática. Universidade Estadual da Paraíba - UEPB
-                            , conclusão em 2019.
+                            <b>Mestrado em Ciências da Computação.</b><br></br>
+                            Universidade Federal de Campina Grande - UFCG, previsão de conclusão em 2026.<br></br>
+                            <b>Análise e Desenvolvimento de Sistemas.</b><br></br>
+                            Instituto Federal da Paraíba - IFPB, conclusão em 2023.<br></br>
+                            <b>Licenciatura Plena em Matemática.</b><br></br>
+                            Universidade Estadual da Paraíba - UEPB, conclusão em 2019.
                         </p>
                     </section>
                     <hr></hr>
