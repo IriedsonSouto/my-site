@@ -64,11 +64,13 @@ function CurriculumPag(){
                     <section>
                         <h2>Formação:</h2>
                         <p>
-                            <b>Mestrado em Ciências da Computação.</b><br></br>
+                            <h5>Mestrado em Ciências da Computação.</h5>
                             Universidade Federal de Campina Grande - UFCG, previsão de conclusão em 2026.<br></br>
-                            <b>Análise e Desenvolvimento de Sistemas.</b><br></br>
+
+                            <h5>Análise e Desenvolvimento de Sistemas.</h5>
                             Instituto Federal da Paraíba - IFPB, conclusão em 2023.<br></br>
-                            <b>Licenciatura Plena em Matemática.</b><br></br>
+
+                            <h5>Licenciatura Plena em Matemática.</h5>
                             Universidade Estadual da Paraíba - UEPB, conclusão em 2019.
                         </p>
                     </section>
